@@ -3,6 +3,7 @@ Module.register("googlemap",{
     // Default module config.
     defaults: {
 		baseurl: 'https://www.google.com/maps/embed/v1/directions?key=',
+		style: '',
 		width: '600',
 		height: '400',
 		interval: 60000,
